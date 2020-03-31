@@ -1,0 +1,20 @@
+<Exercise 1>
+    puts - print to the screen
+    "" - create string
+
+<Exercise 2>
+    # - comment
+
+<Exercise 3>
+   + plus
+   - minus
+   / slash
+   * asterisk
+   % percent
+   < less-than
+   > greater-than
+   <= less-than-equal
+   >= greater-than-equal
+
+<Exercise 4>
+    #{...}
