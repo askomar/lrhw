@@ -10,7 +10,8 @@ def gold_room()
   puts "This room is full of gold. How much do you take?"
 
   prompt; next_move = gets.chomp
-  if next_move.include? "0" or next_move.include? "1"
+  bool check_move = (next_move.include? "0" or next_move.include? "1")
+  if check_move
     how_much = next_move.to_i
   else
     dead("Man, learn to type a number.")
@@ -22,6 +23,7 @@ def gold_room()
   else
     dead("You greedy bastard!")
   end
+
 end
 
 def bear_room()
@@ -55,6 +57,7 @@ def cthulu_room()
   puts "Do you flee for your life or eat your head?"
 
   prompt; next_move = gets.chomp
+
   if next_move.include? "flee"
     start()
   elsif next_move.include? "head"
@@ -62,6 +65,7 @@ def cthulu_room()
   else
     cthulu_room()
   end
+
 end
 
 def dead(why)
