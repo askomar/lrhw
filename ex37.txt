@@ -1,0 +1,183 @@
+#This file describes symbols used in the ruby
+Source: https://docs.ruby-lang.org/en/2.2.0/keywords_rdoc.html
+
+> alias:
+My: -----------
+Internet: Alias is a keyword that get an alternative name to a Ruby method.
+It's usage:
+alias print_something puts
+Now calling print_something is the same as calling puts
+
+> and
+My: It is a logical operator, that's using in the boolean operations. This logical operator
+checks, if both of operators are true. If no, he return false.
+Internet: Called Lohical AND operator. If both the operands are true, then the
+condition becomes true.
+
+>BEGIN
+My: ---------------
+Internet: BEGIN defines a block that is rub before any other code in the current file
+> begin
+My: This operator starts some block of code
+Internet: The begin block is a control structure thet groups together multiple statements.
+> break
+My: THis key word lets to break some loop.
+Internet: Leaves a block early
+>case
+My: This key word using in switch-case operator.
+Internet: Starts a case expression
+> class
+My: Keyword describes the structure of class - OOP
+Internet: Creates or open a class
+> def
+My: The keyword defines a start of a function
+Internet: Defines a method
+> defined?
+My: Function checks in variable is defined.
+Internet: Returns a string describing its argument
+> do
+My: Start a block of code
+Internet: Start a block
+> else
+My: Start the false block of it-statement
+Internet: The unhandled condition in case, if and unless expressions.
+> elsif
+My: Start the next block after if
+Internet: An alternate condition for an if expression.
+>END
+My: END finish a block that is rub before any other code in the current file
+Internet: Runs after any other code in the current file
+> end
+My: Ending the block of code
+Internet: The end of a syntax block. Used by classes, modules, methods,
+exception handling and control expressions.
+> ensure
+My: --------------
+Internet: Start a section of code that is always run when an exceptio is raised.
+> false
+My: It's a negative result of a boolean expressions
+Internet: Boolean false. (literal)
+> for
+My: Start a loop
+Internet: A loop that us similar to using the each method
+> if
+My: Start the logic tree
+Internet: Used for if and modifier if expressions
+> in
+My: Define a sequence
+Internet: Used to separate the iterable object and iterator variable in a for loop.
+> module
+My: Start the module block
+Internet: Creates or opens a module
+> next
+My: -----------
+Internet: Skips the rest of the block
+> nil
+My: The value shows that indicates no value
+Internet: A false value usually indicating "no value" or "unknown".
+> not
+My: Invert boolean value
+Internet: Inverst the following boolean expression. Has a lower precedence than !
+> or
+My: Checks if one of operand are true
+Internet: Boolean or with lower precedence than ||
+> redo
+My: ------------
+Internet: Restarts execution in the current block
+> rescue
+My: ----------
+Internet: Starts an exception section of code in a begin block
+>retry
+My: -----------
+Internet: Retries an exception block
+> return
+My: Return value from the function
+Internet: Exits a method
+> self
+My: --------
+Internet: The object the current method is attached to.
+> super
+My: ---------
+Internet: Calls the current method in a superclass
+> then
+My: Start the true block of the if
+Internet: Indicates the end if conditional blocks in control structures.
+> true
+My: The true
+Internet: Boolean true.
+> undef
+My: ---------
+Internet: Prevents a class or module from responding to a method call
+> unless
+My: Invert operator of while
+Internet: Used for unless and modifier unless expressions.
+> until
+My: -----------
+Internet: Creates a loop that executes until the condition is true
+> when
+My: Case operator
+Internet: A condition in a case expression
+> while
+My: The loop
+Internet: Creates a loop that executes while the condition is true
+> yield
+My: -----------
+Internet: Starts execution of a block sent to the current method
+
+
+Data types TODO:
+> true
+My: Boolean value true
+Internet:
+> false
+> nil
+constants
+strings
+numbers
+ranges
+arrays
+hashes
+
+String escapes TODO:
+\\
+\'
+\"
+\a
+\b
+\f
+\n
+\r
+\t
+\v
+
+Other operators TODO
+::
+[]
+**
+-(unary)
++(unary)
+!
+~
+*
+/
+%
++
+-
+<<
+>>
+&
+|
+>
+>=
+<
+<=
+<=>
+==
+===
+!=
+=~
+!~
+&&
+||
+..
+...

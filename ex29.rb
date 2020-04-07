@@ -29,3 +29,4 @@ end
 if not (people == dogs)
   puts "People are not dogs."
 end
+
